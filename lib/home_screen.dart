@@ -26,23 +26,21 @@ class HomeScreen extends StatelessWidget {
                      ),
                      Expanded(
                        flex: 5,
-                       child: Container(
-                         child: Column(
-                           children: [
-                             Expanded(
-                               flex: 5,
-                               child: Container(
-                                 color: Colors.green,
-                               ),
+                       child: Column(
+                         children: [
+                           Expanded(
+                             flex: 5,
+                             child: Container(
+                               color: Colors.green,
                              ),
-                             Expanded(
-                               flex: 5,
-                               child: Container(
-                                 color: Colors.lightBlueAccent,
-                               ),
+                           ),
+                           Expanded(
+                             flex: 5,
+                             child: Container(
+                               color: Colors.lightBlueAccent,
                              ),
-                           ],
-                         ),
+                           ),
+                         ],
                        ),
                      ),
                    ],
@@ -51,131 +49,115 @@ class HomeScreen extends StatelessWidget {
 
            Expanded(
              flex: 10,
-               child: Container(
-                 child: Row(
-                   children: [
-                     Expanded(
-                       flex: 5,
-                       child: Container(
-                         color: Colors.amber,
-                       ),
+               child: Row(
+                 children: [
+                   Expanded(
+                     flex: 5,
+                     child: Container(
+                       color: Colors.amber,
                      ),
-                     Expanded(
-                       flex: 20,
-                       child: Container(
-                         child: Column(
-                           children: [
-                             Expanded(
-                               flex: 5,
-                               child: Container(
-                                 child: Row(
-                                   children: [
-                                     Expanded(
-                                       flex: 18,
-                                       child: Container(
-                                         color: Colors.white,
-                                       ),
-                                     ),
-                                     Expanded(
-                                       flex: 5,
-                                       child: Container(
-                                         color: Colors.purple,
-                                       ),
-                                     ),
-                                   ],
+                   ),
+                   Expanded(
+                     flex: 20,
+                     child: Column(
+                       children: [
+                         Expanded(
+                           flex: 5,
+                           child: Row(
+                             children: [
+                               Expanded(
+                                 flex: 18,
+                                 child: Container(
+                                   color: Colors.white,
                                  ),
                                ),
-                             ),
-                             Expanded(
-                               flex: 5,
-                               child: Container(
-                                 child: Row(
-                                   children: [
-                                     Expanded(
-                                       flex: 5,
-                                       child: Container(
-                                         color: Colors.deepOrange,
-                                       ),
-                                     ),
-                                     Expanded(
-                                       flex: 15,
-                                       child: Container(
-                                         child: Column(children: [
-                                           Expanded(
-                                             flex: 5,
-                                             child: Container(
-                                               color: Colors.limeAccent,
-                                             ),
-                                           ),
-                                           Expanded(
-                                             flex: 5,
-                                             child: Container(
-                                               color: Colors.deepOrangeAccent,
-                                             ),
-                                           ),
-                                         ],),
-                                       ),
-                                     ),
-                                   ],
+                               Expanded(
+                                 flex: 5,
+                                 child: Container(
+                                   color: Colors.purple,
                                  ),
                                ),
-                             ),
-                           ],
+                             ],
+                           ),
                          ),
-                       ),
+                         Expanded(
+                           flex: 5,
+                           child: Row(
+                             children: [
+                               Expanded(
+                                 flex: 5,
+                                 child: Container(
+                                   color: Colors.deepOrange,
+                                 ),
+                               ),
+                               Expanded(
+                                 flex: 15,
+                                 child: Column(children: [
+                                   Expanded(
+                                     flex: 5,
+                                     child: Container(
+                                       color: Colors.limeAccent,
+                                     ),
+                                   ),
+                                   Expanded(
+                                     flex: 5,
+                                     child: Container(
+                                       color: Colors.deepOrangeAccent,
+                                     ),
+                                   ),
+                                 ],),
+                               ),
+                             ],
+                           ),
+                         ),
+                       ],
                      ),
-                   ],
-                 ),
+                   ),
+                 ],
                )),
            Expanded(
              flex: 6,
-               child: Container(
-                 child: Row(
-                   children: [
-                     Expanded(
-                       flex: 5,
-                       child: Container(
-                         child: Column(
-                           children: [
-                             Expanded(
-                               flex: 5,
-                               child: Container(
-                                 color: Colors.grey,
-                               ),
-                             ),
-                             Expanded(
-                               flex: 5,
-                               child: Container(
-                                 color: Colors.greenAccent,
-                               ),
-                             ),
-                           ],
+               child: Row(
+                 children: [
+                   Expanded(
+                     flex: 5,
+                     child: Column(
+                       children: [
+                         Expanded(
+                           flex: 5,
+                           child: Container(
+                             color: Colors.grey,
+                           ),
                          ),
-                       ),
-                     ),
-                     Expanded(
-                       flex: 5,
-                       child: Container(
-                         child: Row(
-                           children: [
-                             Expanded(
-                               flex: 5,
-                               child: Container(
-                                 color: Colors.white54,
-                               ),
-                             ),
-                             Expanded(
-                               flex: 5,
-                               child: Container(
-                                 color: Colors.teal,
-                               ),
-                             ),
-                           ],
+                         Expanded(
+                           flex: 5,
+                           child: Container(
+                             color: Colors.greenAccent,
+                           ),
                          ),
-                       ),
+                       ],
                      ),
-                   ],
-                 ),
+                   ),
+                   Expanded(
+                     flex: 5,
+                     child: Row(
+                       children: [
+                         Expanded(
+                           flex: 5,
+                           child: Container(
+                             color: Colors.white54,
+                           ),
+                         ),
+                         Expanded(
+                           flex: 5,
+                           child: Container(
+                             color: Colors.teal,
+                           ),
+                         ),
+                       ],
+                     ),
+                   ),
+                 ],
                ))
          ],
        ) ,
